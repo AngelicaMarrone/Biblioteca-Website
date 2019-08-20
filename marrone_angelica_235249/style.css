@@ -1,0 +1,173 @@
+/*visione a schermo*/
+@media screen{
+
+html {
+	font-family: Arial ,Verdana ,Helvetica sans-serif;
+	}
+	
+body {
+    color: black;
+    line-height: 1.2;
+    font-size: 100%;
+}
+
+table{
+	border-collapse: collapse;
+	background-color:#f0f8ff;
+	
+}
+th {
+	border:thin solid black;
+	text-align:center;
+}
+td {
+	border:thin solid black;
+
+}
+
+.header{
+	float:left;
+	height:100px;
+	background-color: #f0f8ff;
+	width: 74%;
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+	height:138px;
+}
+
+.navigator{
+	text-align:center;
+	border-bottom: thin solid black;
+	border-top: thin solid black;
+	border-left: thin solid black;
+	border-right: thin solid black;
+	width:12%;
+	float:left;
+	clear:left;
+	vertical-align:top;
+	
+	
+	
+}
+
+.inattivo {
+    line-height: 250%;
+    background-color: #f0f8ff;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: red;
+}
+
+
+.user{
+	width:20%;
+	float:left;
+	background-color: #f0f8ff;
+	height:176px;	
+	text-align: center;
+}
+
+.content{
+	float:left;
+	padding-left:1%;
+	padding-bottom:1%;
+	text-align: center;
+}
+
+.footer{
+	padding-top:1%;
+	width:100%;
+	background-color: #f0f8ff;
+	float:left;
+	clear: both;
+	line-height: 1%;
+	text-align: right;
+	font-style:italic;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+.unloggato {
+    font-size: 20px;
+    color: #ff0000;
+	text-align: center;
+}
+
+.errato {
+    background-color: #ffff00;
+	text-align: center;
+}
+
+.errore {
+    color: #ff0000;
+	text-align: center;
+}
+}
+
+/*stampa*/
+@media print{
+
+
+	body { 
+		background-color: white; 
+		font-family: "Times New Roman",  serif; 
+		font-size: 12pt; 
+		color: black
+	}
+ 
+    p{
+        text-align: left;
+        color: black;
+        font-family: "Times New Roman", serif;
+    }
+    
+    h1{
+        text-align: left;
+        color: black;
+        font-family: "Times New Roman", serif;
+    }
+ 
+    h2{
+        text-align: left;
+        color: black;
+        font-family: "Times New Roman", serif;
+    }
+
+    .errore {
+        color: red;
+    }
+	
+	.navigator{
+	
+	display: none;
+	}
+
+	.footer{
+		display: none;
+	}
+	
+	table{
+		width: 100%;
+		border: 1px solid #000000;
+		text-align: left;
+	}
+
+
+ 
+}
+
